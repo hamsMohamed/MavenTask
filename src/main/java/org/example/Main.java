@@ -16,7 +16,7 @@ public class Main {
                 emp.setName("name");
                 emp.setSalary((i+1)*1000);
                 employees[i]=emp;
-                writer.write(employees[i].toString());
+                writer.write(employees[i].toString()+"\n");
 
             }
             writer.close();

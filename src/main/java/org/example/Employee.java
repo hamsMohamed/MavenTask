@@ -30,6 +30,6 @@ public class Employee {
     }
     public String toString()
     {
-        return getID()+" "+getName()+getID()+" "+getSalary()+"\n";
+        return getID()+" "+getName()+getID()+" "+getSalary();
     }
 }
